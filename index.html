@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satti Harsha Vardhan Reddy | Full Stack Web Developer Portfolio</title>
+    <meta name="description" content="Professional portfolio of Satti Harsha Vardhan Reddy, a Computer Science student and Full Stack Web Developer. View projects, skills, education, and contact details.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <!-- Progress Bar -->
+    <div id="scroll-progress"></div>
+
+    <!-- Navigation Header -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-accent">&lt;</span>Harsha<span class="logo-accent">/&gt;</span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-btn" aria-label="Toggle dark/light theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Open navigation menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="hero-subtitle">Welcome to my portfolio</span>
+                    <h1 class="hero-title">Hi, I'm <span class="text-gradient">Harsha Vardhan</span></h1>
+                    <h2 class="hero-role">Full Stack Web Developer</h2>
+                    <p class="hero-description">
+                        I am a hardworking and motivated Computer Science undergraduate specializing in building modern, scalable, and responsive web applications.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>View My Work</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Let's Connect</span>
+                        </a>
+                    </div>
+                    <div class="hero-socials">
+                        <a href="https://github.com/harshasatti2006" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/satti-harsha-vardhan-reddy-48015a358" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:harshasatti9@gmail.com" class="social-icon" aria-label="Email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image-container">
+                    <div class="blob-wrapper">
+                        <div class="glow-bg"></div>
+                        <div class="avatar-frame">
+                            <img src="images/profile.jpeg" alt="Satti Harsha Vardhan Reddy Profile Picture" class="avatar-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About & Education Section -->
+        <section id="about" class="about-section section-padding scroll-reveal">
+            <div class="container">
+                <div class="section-header">
+                    <span class="subheading">Get to know me</span>
+                    <h2 class="section-title">About Me & Education</h2>
+                    <div class="underline"></div>
+                </div>
+                
+                <div class="about-grid">
+                    <div class="about-text-col">
+                        <h3>Who I Am</h3>
+                        <p class="paragraph">
+                            I am currently a Computer Science undergraduate at Vel Tech University with a deep passion for software engineering, full stack development, and database architecture. I thrive in challenging environments that push me to learn new technologies and grow as a developer.
+                        </p>
+                        <p class="paragraph">
+                            My approach focuses on writing modular, readable, and highly maintainable code. I love designing responsive user interfaces that deliver high-quality experiences, and optimizing backend systems for scalability and performance.
+                        </p>
+                        <div class="personal-details">
+                            <div class="detail-item">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span>Marteru, Andhra Pradesh, India</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                                <span>BTech Student (CSE)</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-edu-col">
+                        <h3>Education Timeline</h3>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-date">2023 - 2027</div>
+                                <div class="timeline-content">
+                                    <h4>BTech in Computer Science and Engineering</h4>
+                                    <p class="timeline-institute">Vel Tech University</p>
+                                    <p class="timeline-desc">Specializing in core computer science, database systems, and full-stack development. Active learner and participant in engineering events.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-date">2021 - 2023</div>
+                                <div class="timeline-content">
+                                    <h4>Intermediate (MPC)</h4>
+                                    <p class="timeline-institute">Tirumula Junior College</p>
+                                    <p class="timeline-desc">Completed Higher Secondary Education in Mathematics, Physics, and Chemistry fields.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-date">2020 - 2021</div>
+                                <div class="timeline-content">
+                                    <h4>SSC (10th Class)</h4>
+                                    <p class="timeline-institute">Sri Chaitanya School</p>
+                                    <p class="timeline-desc">General secondary education foundation with focus on mathematics and science.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience-section section-padding scroll-reveal">
+            <div class="container">
+                <div class="section-header">
+                    <span class="subheading">My Professional Journey</span>
+                    <h2 class="section-title">Internship Experience</h2>
+                    <div class="underline"></div>
+                </div>
+                
+                <div class="experience-card">
+                    <div class="exp-header">
+                        <div class="exp-title-group">
+                            <div class="exp-icon">
+                                <i class="fa-solid fa-briefcase"></i>
+                            </div>
+                            <div>
+                                <h3>Full Stack Development Intern</h3>
+                                <h4 class="company-name">DIGIT IT, Hyderabad</h4>
+                            </div>
+                        </div>
+                        <div class="exp-date">
+                            <span class="badge">Jun 2025 - Sep 2025</span>
+                        </div>
+                    </div>
+                    
+                    <div class="exp-body">
+                        <ul class="exp-highlights">
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Developed a web-based <strong>Online Voting Management System</strong> featuring role-based secure access, including Super Admin and Admin control panels.</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Designed and built responsive layouts and rich user interfaces utilizing <strong>HTML</strong>, <strong>CSS</strong>, and <strong>Bootstrap</strong> frameworks.</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Created scalable back-end components to organize colleges, professors, specializations, and student voting processes.</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Implemented authentication features including secure session management, login, and registration.</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Programmed dynamic client-side forms, event validations, and interactive modules with <strong>JavaScript</strong> and <strong>jQuery</strong>.</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Structured project directories with a modular folder layout for better code maintenance, reusability, and future scalability.</span>
+                            </li>
+                        </ul>
+                        
+                        <div class="exp-tech-stack">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">jQuery</span>
+                            <span class="tech-tag">Bootstrap</span>
+                            <span class="tech-tag">Web Security</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section section-padding scroll-reveal">
+            <div class="container">
+                <div class="section-header">
+                    <span class="subheading">What I've Built</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="underline"></div>
+                </div>
+                
+                <div class="projects-grid">
+                    <!-- Project 1: Ticket Booking System -->
+                    <div class="project-card">
+                        <div class="project-card-inner">
+                            <div class="project-info">
+                                <div class="project-category">Full Stack Web App</div>
+                                <h3 class="project-title">Ticket Booking System</h3>
+                                <p class="project-description">
+                                    A robust and seamless registration and ticket booking platform designed for university departments. It allows students to view upcoming internal department events, check available slots, and reserve seats in real time, shifting paper-based processes into a clean, modern digital workflow.
+                                </p>
+                                <div class="project-features">
+                                    <span><i class="fa-regular fa-circle-check"></i> Seat Booking Grid</span>
+                                    <span><i class="fa-regular fa-circle-check"></i> Real-time Capacity Updates</span>
+                                    <span><i class="fa-regular fa-circle-check"></i> Admin Panel for Events</span>
+                                </div>
+                                <div class="project-tech">
+                                    <span>HTML5</span>
+                                    <span>CSS3</span>
+                                    <span>JavaScript</span>
+                                    <span>Node.js</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: Online Voting System -->
+                    <div class="project-card">
+                        <div class="project-card-inner">
+                            <div class="project-info">
+                                <div class="project-category">Full Stack Web App</div>
+                                <h3 class="project-title">Online Voting Management System</h3>
+                                <p class="project-description">
+                                    A secure, role-based online voting platform developed during my internship. Enables university or organizational administrators to structure student associations, manage specializations, verify eligibility, and execute transparent elections with visual results reporting.
+                                </p>
+                                <div class="project-features">
+                                    <span><i class="fa-regular fa-circle-check"></i> Role-Based Dashboards</span>
+                                    <span><i class="fa-regular fa-circle-check"></i> Secure Authentication</span>
+                                    <span><i class="fa-regular fa-circle-check"></i> Dynamic Validations</span>
+                                </div>
+                                <div class="project-tech">
+                                    <span>HTML5</span>
+                                    <span>Bootstrap</span>
+                                    <span>JavaScript</span>
+                                    <span>jQuery</span>
+                                    <span>SQL</span>
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section section-padding scroll-reveal">
+            <div class="container">
+                <div class="section-header">
+                    <span class="subheading">Technical Expertise</span>
+                    <h2 class="section-title">Skills & Proficiencies</h2>
+                    <div class="underline"></div>
+                </div>
+                
+                <div class="skills-grid">
+                    <!-- Languages -->
+                    <div class="skills-card">
+                        <div class="skills-icon-header">
+                            <i class="fa-solid fa-code"></i>
+                            <h3>Programming Languages</h3>
+                        </div>
+                        <ul class="skills-list">
+                            <li>
+                                <div class="skill-name-percent">
+                                    <span>JavaScript</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 85%"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-name-percent">
+                                    <span>Python</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 80%"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-name-percent">
+                                    <span>SQL</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 85%"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-name-percent">
+                                    <span>Java</span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 70%"></div></div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Web Technologies -->
+                    <div class="skills-card">
+                        <div class="skills-icon-header">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <h3>Web Technologies</h3>
+                        </div>
+                        <ul class="skills-list">
+                            <li>
+                                <div class="skill-name-percent">
+                                    <span>HTML5 & CSS3</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 90%"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-name-percent">
+                                    <span>Node.js</span>
+                                    <span>75%</span>
+                                </div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 75%"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-name-percent">
+                                    <span>Flask (Python)</span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 70%"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-name-percent">
+                                    <span>Bootstrap & jQuery</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 85%"></div></div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Databases & Platforms -->
+                    <div class="skills-card">
+                        <div class="skills-icon-header">
+                            <i class="fa-solid fa-database"></i>
+                            <h3>Databases & Tools</h3>
+                        </div>
+                        <ul class="skills-list">
+                            <li>
+                                <div class="skill-name-percent">
+                                    <span>MySQL</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 80%"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-name-percent">
+                                    <span>SQLite</span>
+                                    <span>75%</span>
+                                </div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 75%"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-name-percent">
+                                    <span>Git & GitHub</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 85%"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-name-percent">
+                                    <span>VS Code</span>
+                                    <span>95%</span>
+                                </div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 95%"></div></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section-padding scroll-reveal">
+            <div class="container">
+                <div class="section-header">
+                    <span class="subheading">Get In Touch</span>
+                    <h2 class="section-title">Contact Details</h2>
+                    <div class="underline"></div>
+                </div>
+                
+                <div class="contact-grid">
+                    <!-- Contact Form Card -->
+                    <div class="contact-card contact-form-card">
+                        <h3>Send a Message</h3>
+                        <form id="contact-form" class="contact-form" action="mailto:harshasatti9@gmail.com" method="POST" enctype="text/plain">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                                <span class="error-msg" id="name-error"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                                <span class="error-msg" id="email-error"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" placeholder="Enter subject" required>
+                                <span class="error-msg" id="subject-error"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Your Message</label>
+                                <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+                                <span class="error-msg" id="message-error"></span>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-submit">
+                                <span>Send Message</span>
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Direct Info Card -->
+                    <div class="contact-card contact-info-card">
+                        <h3>Contact Info</h3>
+                        <p class="contact-intro">Feel free to reach out to me for internship opportunities, project collaborations, or just to say hello!</p>
+                        
+                        <div class="info-list">
+                            <a href="mailto:harshasatti9@gmail.com" class="info-item">
+                                <div class="info-icon">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <div class="info-text">
+                                    <span class="info-label">Email</span>
+                                    <span class="info-value">harshasatti9@gmail.com</span>
+                                </div>
+                            </a>
+                            
+                            <a href="tel:+919391329687" class="info-item">
+                                <div class="info-icon">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div class="info-text">
+                                    <span class="info-label">Phone</span>
+                                    <span class="info-value">+91 9391329687</span>
+                                </div>
+                            </a>
+                            
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div class="info-text">
+                                    <span class="info-label">Address</span>
+                                    <span class="info-value">Sivaraopeta, Marteru, 534122</span>
+                                </div>
+                            </div>
+
+                            <a href="https://www.linkedin.com/in/satti-harsha-vardhan-reddy-48015a358" target="_blank" rel="noopener noreferrer" class="info-item">
+                                <div class="info-icon">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </div>
+                                <div class="info-text">
+                                    <span class="info-label">LinkedIn</span>
+                                    <span class="info-value">linkedin.com/in/satti-harsha-vardhan-reddy</span>
+                                </div>
+                            </a>
+
+                            <a href="https://github.com/harshasatti2006" target="_blank" rel="noopener noreferrer" class="info-item">
+                                <div class="info-icon">
+                                    <i class="fa-brands fa-github"></i>
+                                </div>
+                                <div class="info-text">
+                                    <span class="info-label">GitHub</span>
+                                    <span class="info-value">github.com/harshasatti2006</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <p class="copyright">&copy; 2026 Satti Harsha Vardhan Reddy. All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll To Top -->
+    <button id="scroll-to-top" class="scroll-to-top-btn" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Script file -->
+    <script src="script.js"></script>
+</body>
+</html>
